@@ -1,0 +1,67 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+  customSections: #(optional)
+    - name: Supervisor
+      content: Fusce eu augue ut odio porttitor pulvinar.
+
+degrees:
+- name: M.S. in Robotics
+  icon: fa-graduation-cap
+  timeframe: 2024-2026
+  institution:
+    name: University of Michigan, Ann Arbor
+    url: "https://umich.edu"
+    logo: images/sections/education/Michigan-Engineering Vertical-REV-BLUE-RGB.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.93
+    outOf: 4.0
+
+- name: B.S. in Mechanical Engineering (Control and Robotics)
+  icon: fa-graduation-cap
+  timeframe: 2018-2023
+  institution:
+    name: University of California, San Diego
+    url: "https://ucsd.edu"
+    logo: images/sections/education/ucsd+logo+2.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.74
+    outOf: 4.0
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Data Structures and Algorithm
+      achieved: 3.75
+      outOf: 4
+    - name: Network Security
+      achieved: 3.80
+      outOf: 4
+    - name: Operating System
+      achieved: 3.5
+      outOf: 4
+    - name: Artificial Intelligent
+      achieved: 3.75
+      outOf: 4
+  extracurricularActivities: #(optional)
+  - In vitae facilisis est, eget porta sem.
+  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  - Duis sed massa feugiat, ornare justo et, aliquam est.
+  - Pellentesque ut fringilla magna.
+  customSections: #(optional)
+    - name: Supervisor
+      content: Fusce eu augue ut odio porttitor pulvinar.

@@ -1,0 +1,21 @@
+# information about you
+name: "Jeffrey Chen"
+nickname: "Jeffrey Chen"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/john.png"
+# contact information. they will be used in the footer
+contactInfo:
+  email: "jeffzc@umich.edu"
+  github: jypipi
+  linkedin: zeyu-jeffrey-chen
+
+# summary about what you do
+summary:
+  - I am a Robotics Engineer
+  - I love to build real robots
+  - I love to work with both software and hardware in robotics
+  - I love to solve real-world problems
+  - I love to learn new things
+  - I love to explore new stuff
+  - I love snowboarding
