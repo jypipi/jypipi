@@ -2,7 +2,7 @@
 baseURL: https://jypipi.github.io/jypipi/
 
 languageCode: en
-title: "JC's Portfolio"
+title: "Jeffrey's Portfolio"
 
 # Use Hugo modules to add theme
 module:
@@ -20,6 +20,8 @@ module:
     - source: static
       target: static
   mounts:
+  - source: static/images
+    target: static/images
   - source: static/files
     target: static/files
   - source: ./node_modules/flag-icons/flags
@@ -35,7 +37,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "JC's Portfolio"
+    title: "Jeffrey's Portfolio"
     weight: 1
 # default language for the content
 defaultContentLanguage: en

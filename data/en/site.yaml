@@ -11,7 +11,7 @@ description: Portfolio of Jeffrey Chen.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: JC's Portfolio
+  title: Jeffrey's Portfolio
   type: website
   description: Portfolio of Jeffrey Chen.
   image: images/author/jeffrey.png

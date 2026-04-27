@@ -8,66 +8,133 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true 
 
-# Your experiences
+# Experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: Symbotic Inc.
+    url: "https://www.symbotic.com"
+    location: Wilmington, MA
+    overview: Symbotic develops mobile robotics and automation systems for large-scale warehouse operations.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Robotics Software Intern
+    start: May 2025
+    end: Aug 2025
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Engineered autonomous Smart Move routines in C++ and Python, integrating them into existing robot recovery systems for large-scale teleoperation and case-handling workflows.
+    - Collaborated cross-functionally to collect downstream requirements, design and test Smart Move features, and deploy final software updates.
+    - Reduced operational time by 42%-80% while achieving 98%-100% task success rates.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Field Robotics Group (FroG)
+    url: "https://fieldrobotics.engin.umich.edu/home"
+    location: Ann Arbor, MI
+    overview: The Field Robotics Group develops robotic systems for challenging real-world field environments.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Graduate Researcher - Robotics Software
+    start: Feb 2026
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Developing a ROS 2 software stack for an autonomous underwater vehicle in Python and C++, from high-level wrench command generation through actuator control allocation.
+    - Integrated the stack with Pixhawk hardware running ArduSub via a MAVROS2-based MAVLink interface.
+    - Dockerized the workspace and automated bring-up with shell scripts for repeatable development and deployment.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: Fluent Robotics Lab
+    url: "https://fluentrobotics.com/"
+    location: Ann Arbor, MI
+    overview: Fluent Robotics Lab researches interactive robotic systems that collaborate with people through language, perception, and planning.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Graduate Researcher
+    start: Jan 2025
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Building an end-to-end human-in-the-loop system in ROS Noetic for interactive task execution with LLM-based planning, natural-language commands, object perception, and motion planning.
+    - Deployed an RGB-D perception pipeline combining visual language models, YOLO-based segmentation, OpenCV processing, and point cloud alignment for real-time object pose estimation.
+
+- company:
+    name: Multi-Agent Robotics (MURO) Lab
+    url: "http://muro.ucsd.edu/index.html"
+    location: La Jolla, CA
+    overview: MURO Lab studies multi-agent robotic systems, including localization, coordination, and perception under uncertainty.
+  positions:
+  - designation: Undergraduate Researcher
+    start: Apr 2023
+    end: Jul 2024
+    responsibilities:
+    - Implemented a multi-robot localization system using ROS 2, Python, and sensor fusion techniques for real-time global pose estimation.
+    - Customized a Multiplicative Extended Kalman Filter to mitigate position and orientation errors of moving robots, improving real-time positioning accuracy by more than 70%.
+    - Co-developed a distributed localization algorithm with uncertainty quantification for robust object position estimation under sensor faults.
+
+- company:
+    name: Existential Robotics Laboratory
+    url: "https://existentialrobotics.org/"
+    location: La Jolla, CA
+    overview: Existential Robotics Laboratory builds robotics tools and educational platforms for simulation, navigation, and autonomy.
+  positions:
+  - designation: Undergraduate Researcher
+    start: Jan 2023
+    end: Jun 2024
+    responsibilities:
+    - Engineered an interactive robotics learning platform integrating robot navigation algorithms and visualizations with Python, Google Colab, and PyBullet.
+    - Enabled learning and rapid prototyping of robot localization, mapping, path planning, and motion control workflows.
+    - Contributed to a centralized web-based simulation interface with sample implementations and interactive visualizations, reducing access time to testing tools by more than 90%.
+
+# - company:
+#     name: Example Co.
+#     url: "https://www.example.com"
+#     location: Dhaka Branch
+#     logo: /images/sections/experiences/company1.jpg
+#     # Can optionally show a different logo for dark theme
+#     # darkLogo: /images/sections/experiences/company1.jpg
+#     # company overview
+#     overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+#   positions:
+#   - designation: Senior Software Engineer
+#     start: Nov 2019
+#     # don't provide end date if you are currently working there. It will be replaced by "Present"
+#     # end: Dec 2020
+#     # give some points about what was your responsibilities at the company.
+#     responsibilities:
+#     - Design and develop XYZ tool for ABC task
+#     - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+#     - Lead backend team.
+
+#   - designation: Junior Software Engineer
+#     start: Nov 2017
+#     end: Oct 2019
+#     responsibilities:
+#     - Implement and test xyz feature for abc tool.
+#     - Support client for abc tool.
+#     - Learn k,d,w technology for xyz.
+
+# - company:
+#     name: PreExample Co.
+#     url: "https://www.example.com"
+#     location: Nowhere
+#     logo: /images/sections/experiences/company2.jpg
+#     # Can optionally show a different logo for dark theme
+#     # darkLogo: /images/sections/experiences/company2.jpg
+#     overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+#   positions:
+#   - designation: Software Engineer
+#     start: March 2016
+#     end: May 2017
+#     responsibilities:
+#     - Write lots of example codes.
+#     - Read lots of examples.
+#     - See lots of example videos.
+
+# - company:
+#     name: Intern Counting Company (ICC).
+#     url: "https://www.example.com"
+#     location: Intern Land
+#     logo: /images/sections/experiences/company3.jpg
+#     # Can optionally show a different logo for dark theme
+#     # darkLogo: /images/sections/experiences/company3.jpg
+#     overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+#   positions:
+#   - designation: Intern
+#     start: Jun 2015
+#     end: Jan 2016
+#     responsibilities:
+#     - Count lost of interns.
+#     - Count more interns.
+#     - Count me as an intern.
