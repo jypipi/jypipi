@@ -13,59 +13,178 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
 - name: Language
   filter: "language"
+- name: Robotics
+  filter: "robotics"
+- name: CAD
+  filter: "cad"
+- name: Tools
+  filter: "tools"
+- name: AI
+  filter: "ai"
 - name: Container
   filter: "container"
-- name: Others
-  filter: "others"
+- name: Version Control
+  filter: "version-control"
+- name: Mechanics
+  filter: "mechanics"
+- name: Certification
+  filter: "certification"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Used for robotics software development, perception pipelines, automation scripts, and research prototypes."
+  categories: ["language", "robotics"]
+  url: "https://www.python.org/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: C/C++
+  logo: /images/sections/skills/c++.png
+  summary: "Used for robotics software, embedded-style control, SLAM, motion control, and performance-sensitive autonomy components."
+  categories: ["language", "robotics"]
+  url: "https://isocpp.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: Java
+  logo: /images/sections/skills/java.svg
+  summary: "Programming language experience from software engineering coursework and application development."
+  categories: ["language"]
+  url: "https://www.java.com/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: Unix Scripting
+  logo: /images/sections/skills/bash.svg
+  summary: "Used shell scripts to automate development workflows, workspace setup, and robot software bring-up."
+  categories: ["language", "tools"]
+  url: "https://www.gnu.org/software/bash/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: MATLAB
+  logo: /images/sections/skills/matlab.svg
+  summary: "Used for engineering analysis, controls, robotics coursework, and rapid algorithm prototyping."
+  categories: ["language", "tools"]
+  url: "https://www.mathworks.com/products/matlab.html"
+
+- name: ROS / ROS 2
+  logo: /images/sections/skills/ros.svg
+  summary: "Experienced with ROS Noetic and ROS 2 Humble for robot software stacks, localization, perception, MAVROS2 integration, and multi-robot systems."
+  categories: ["robotics", "tools"]
+  url: "https://www.ros.org/"
+
+- name: PyTorch
+  logo: /images/sections/skills/pytorch.svg
+  summary: "Used for deep learning and robot perception workflows."
+  categories: ["robotics", "tools"]
+  url: "https://pytorch.org/"
+
+- name: OpenCV
+  logo: /images/sections/skills/opencv.svg
+  summary: "Used for RGB-D perception pipelines, image processing, object detection support, and pose estimation workflows."
+  categories: ["robotics", "tools"]
+  url: "https://opencv.org/"
+
+- name: Ultralytics
+  logo: /images/sections/skills/ultralytics.svg
+  summary: "Used Ultralytics components for computer vision workflows, including YOLO models for object detection, segmentation, classification, pose estimation, tracking, and dataset/model tooling."
+  categories: ["ai", "robotics", "tools"]
+  url: "https://www.ultralytics.com/"
+
+- name: PyBullet
+  summary: "Used for robotics simulation, visualization, and rapid prototyping of localization, mapping, planning, and motion control algorithms."
+  categories: ["robotics", "tools"]
+  url: "https://pybullet.org/"
+
+- name: State Machines
+  summary: "Applied state-machine design patterns for structured robot behavior and task execution logic."
+  categories: ["robotics"]
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  summary: "Primary development environment for robotics software, ROS workflows, Dockerized workspaces, and shell automation."
+  categories: ["tools"]
+  url: "https://www.linux.org/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Dockerized robotics workspaces and automated repeatable development and deployment environments."
+  categories: ["tools", "robotics", "container"]
+  url: "https://www.docker.com/"
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
+  summary: "Experienced with Git-based development workflows across GitHub and GitLab."
+  categories: ["tools", "version-control"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+- name: GitHub
+  logo: /images/sections/skills/github.svg
+  summary: "Used for source control, collaboration, and project hosting."
+  categories: ["tools", "version-control"]
+  url: "https://github.com/"
+
+- name: GitLab
+  logo: /images/sections/skills/gitlab.svg
+  summary: "Used for source control and collaborative robotics software development."
+  categories: ["tools", "version-control"]
+  url: "https://about.gitlab.com/"
+
+- name: Jira
+  logo: /images/sections/skills/jira.svg
+  summary: "Used for task tracking and cross-functional software development coordination."
+  categories: ["tools"]
+  url: "https://www.atlassian.com/software/jira"
+
+- name: SolidWorks
+  logo: /images/sections/skills/solidworks.svg
+  summary: "Used for mechanical design and CAD modeling; Certified SolidWorks Associate in Mechanical Design."
+  categories: ["cad"]
+  url: "https://www.solidworks.com/"
+
+- name: Autodesk Fusion
+  logo: /images/sections/skills/autodesk-fusion.svg
+  summary: "Used for CAD modeling, mechanical design iteration, and fabrication-oriented design workflows."
+  categories: ["cad"]
+  url: "https://www.autodesk.com/products/fusion-360/overview"
+
+- name: CNC
+  logo: /images/sections/skills/cnc.svg
+  summary: "Experienced with CNC-oriented fabrication workflows for mechanical prototyping and manufacturing."
+  categories: ["mechanics"]
+
+- name: Lathe
+  logo: /images/sections/skills/lathe.png
+  summary: "Experienced with lathe-based machining concepts for mechanical fabrication."
+  categories: ["mechanics"]
+
+- name: Milling
+  logo: /images/sections/skills/milling.svg
+  summary: "Experienced with milling workflows for subtractive manufacturing and mechanical prototyping."
+  categories: ["mechanics"]
+
+- name: 3D Printing
+  logo: /images/sections/skills/3d-printing.svg
+  summary: "Used 3D printing for rapid mechanical prototyping, robot parts, and iteration of physical designs."
+  categories: ["mechanics"]
+
+- name: Laser Cut
+  logo: /images/sections/skills/laser-cut.svg
+  summary: "Used laser cutting workflows for fast fabrication of flat parts, fixtures, and prototypes."
+  categories: ["mechanics"]
+
+- name: Microsoft Office
+  logo: /images/sections/skills/microsoft365.svg
+  summary: "Used for technical documentation, communication, reporting, and presentations."
+  categories: ["tools"]
+  url: "https://www.microsoft.com/microsoft-365"
+
+- name: NVIDIA Jetson AI Specialist
+  logo: /images/sections/skills/nvidia.svg
+  summary: "Certified in NVIDIA Jetson AI workflows for edge AI and robotics applications."
+  categories: ["robotics", "certification"]
+  url: "https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs"
+
+- name: Certified SolidWorks Associate (CSWA)
+  logo: /images/sections/skills/solidworks-cswa-badge.png
+  summary: "Certified SolidWorks Associate in Mechanical Design."
+  categories: ["cad", "certification"]
+  url: "https://www.solidworks.com/certifications/mechanical-design-cswa-mechanical-design"
