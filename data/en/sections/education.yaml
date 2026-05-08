@@ -24,7 +24,7 @@ degrees:
     # darkLogo: /images/sections/education/tech_college.png
   grade: #(optional)
     scale: GPA
-    achieved: 3.93
+    achieved: 3.94
     outOf: 4.0
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
@@ -60,6 +60,8 @@ degrees:
     - name: Control Systems
     - name: Machine Learning
     - name: Mechanical Design
+  extracurricularActivities:
+    - Triton Robosub Robotics Club (Control System Developer)
   #   - name: Data Structures and Algorithm
   #     achieved: 3.75
   #     outOf: 4

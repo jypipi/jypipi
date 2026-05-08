@@ -7,21 +7,16 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-# your designation
+# Designation
 designation: Robotics Master's Student
-# your company information
 company:
   name: University of Michigan, Ann Arbor
   url: "https://robotics.umich.edu/"
 
-# your resume. this file path should be relative to you "static" directory
-# Dreprecated. Use resourceLinks instead.
-# resume: "files/resume.pdf"
-
-# a summary about you
+# Summary
 summary: 'I am a passionate robotics engineer and Master’s student in the Robotics Department at the University of Michigan, Ann Arbor, with a strong interest in autonomy technologies spanning industrial automation, autonomous driving, and human-robot interaction. I am driven by the goal of developing intelligent, reliable, and scalable robotic systems that tackle real-world challenges while pushing the boundaries of human capability.'
 
-# your social links
+# Social Links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: LinkedIn
@@ -36,38 +31,33 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "jeffzc.work@gmail.com"
 
-# You can put custom buttons to link your relevant resources.
-# For example, you can put link for your resume.
+# Put custom buttons to link your relevant resources.
 resourceLinks:
 - title: "My Resume"
   url: "files/Zeyu_Chen_Resume.pdf"
 
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
+# Show a photo wall in the About section.
+photoWall:
+- image: "/images/company1.jpg"
+  # title: "Project Experience"
+- image: "/images/company2.jpg"
+  # title: "Robotics Work"
+# - image: "/images/solidworks-cswa-badge.png"
+  # title: "Team Collaboration"
+
+# Previous badge/soft-skill examples are kept here for reference.
+# badges:
 # - type: certification
-#   name: Certified Kubernetes Security Specialist
-#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-#   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
-
-- type: certification
-  name: SOLIDWORKS Design Associate (CSWA)
-  url: "https://www.solidworks.com/certifications/mechanical-design-cswa-mechanical-design"
-  badge: "images/solidworks-cswa-badge.png"
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Problem Solving
-  percentage: 90
-  color: orange
-
-# you can also provide color code instead of the color name
+#   name: SOLIDWORKS Design Associate (CSWA)
+#   url: "https://www.solidworks.com/certifications/mechanical-design-cswa-mechanical-design"
+#   badge: "images/solidworks-cswa-badge.png"
+#
 # - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+#   name: Team Work
+#   percentage: 90
+#   color: yellow
+#
+# - type: soft-skill-indicator
+#   name: Problem Solving
+#   percentage: 90
+#   color: orange
