@@ -1,9 +1,11 @@
 # information about you
-name: "Jeffrey Zeyu Chen"
+name: "Zeyu Chen (Jeffrey)"
 nickname: "Jeffrey"
-# greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
-image: "images/author/john.png"
+
+# greeting message
+greeting: "Hi, I'm Jeffrey. Nice to meet you!"
+image: "images/author/Squared_Headshot.jpg"
+
 # contact information. they will be used in the footer
 contactInfo:
   email: "jeffzc@umich.edu"
@@ -13,9 +15,8 @@ contactInfo:
 # summary about what you do
 summary:
   - I am a Robotics Engineer
-  - I love to build real robots
-  - I love to work with both software and hardware in robotics
-  - I love to solve real-world problems
-  - I love to learn new things
-  - I love to explore new stuff
-  - I love snowboarding
+  - building real robots
+  - working with both software and hardware in robotics
+  - tackling real-world problems
+  - exploring and learning new stuff
+  - enjoying snowboarding

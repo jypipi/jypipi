@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Achievements
+  name: Moments
   id: achievements
   enable: true
   weight: 10
@@ -8,17 +8,14 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# Your achievements achievements
+# contents
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+- title: MS Graduation
+  image: /images/sections/achievements/ceremony.jpeg
+  summary: Completed Master of Science in Robotics from University of Michigan, Ann Arbor.
+- title: RoboSub 2023 Competition
+  image: /images/sections/achievements/Robosub2023_UCSD_Photo.png
+  summary: RoboSub 2023 Competition in San Diego, California.
+- title: URC 2024
+  image: /images/sections/achievements/URC.jpg
+  summary: 'Presented our research on "Python Robotics: Developing a Learning and Testing Platform for Robot Navigation" at the 2024 Undergraduate Research Conference of UC San Diego.'

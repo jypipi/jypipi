@@ -32,19 +32,6 @@ experiences:
       meta: "Director of Robotics Software"
 
 - company:
-    name: Field Robotics Group (FroG)
-    url: "https://fieldrobotics.engin.umich.edu/home"
-    location: Ann Arbor, MI
-    overview: The Field Robotics Group develops robotic systems for challenging real-world field environments.
-  positions:
-  - designation: Graduate Researcher - Robotics Software
-    start: Feb 2026
-    responsibilities:
-    - Developing a ROS 2 software stack for an autonomous underwater vehicle in Python and C++, from high-level wrench command generation through actuator control allocation.
-    - Integrated the stack with Pixhawk hardware running ArduSub via a MAVROS2-based MAVLink interface.
-    - Dockerized the workspace and automated bring-up with shell scripts for repeatable development and deployment.
-
-- company:
     name: Fluent Robotics Lab
     url: "https://fluentrobotics.com/"
     location: Ann Arbor, MI
@@ -55,6 +42,20 @@ experiences:
     responsibilities:
     - Building an end-to-end human-in-the-loop system in ROS Noetic for interactive task execution with LLM-based planning, natural-language commands, object perception, and motion planning.
     - Deployed an RGB-D perception pipeline combining visual language models, YOLO-based segmentation, OpenCV processing, and point cloud alignment for real-time object pose estimation.
+
+- company:
+    name: Field Robotics Group (FroG)
+    url: "https://fieldrobotics.engin.umich.edu/home"
+    location: Ann Arbor, MI
+    overview: The Field Robotics Group develops robotic systems for challenging real-world field environments.
+  positions:
+  - designation: Graduate Researcher - Robotics Software
+    start: Feb 2026
+    end: May 2026
+    responsibilities:
+    - Developed a ROS 2 software stack for an autonomous underwater vehicle in Python and C++, from high-level wrench command generation through actuator control allocation.
+    - Integrated the stack with Pixhawk hardware running ArduSub via a MAVROS2-based MAVLink interface.
+    - Dockerized the workspace and automated bring-up with shell scripts for repeatable development and deployment.
 
 - company:
     name: Multi-Agent Robotics (MURO) Lab

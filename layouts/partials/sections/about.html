@@ -16,10 +16,8 @@
       <h3 class="p-1">{{ $author.name }}</h3>
       {{ if .designation }}
       <h5 class="p-1">
-        {{ .designation }}
-        {{ if .company }}
-        {{ i18n "at"}} <a href="{{ .company.url }}" title="{{ .company.name }}" target="_blank" rel="noopener">{{ .company.name }}</a>
-        {{ end }}
+        {{- .designation -}}
+        {{- if .company }}, <a href="{{ .company.url }}" title="{{ .company.name }}" target="_blank" rel="noopener">{{ .company.name }}</a>{{ end }}
       </h5>
       {{ end }}
       <p class="p-1 text-justify">

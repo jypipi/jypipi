@@ -8,13 +8,13 @@ section:
   template: sections/about.html
 
 # Designation
-designation: Robotics Master's Student
+designation: M.S. Robotics Graduate
 company:
-  name: University of Michigan, Ann Arbor
+  name: University of Michigan - Ann Arbor
   url: "https://robotics.umich.edu/"
 
 # Summary
-summary: 'I am a passionate robotics engineer and Master’s student in the Robotics Department at the University of Michigan, Ann Arbor, with a strong interest in autonomy technologies spanning industrial automation, autonomous driving, and human-robot interaction. I am driven by the goal of developing intelligent, reliable, and scalable robotic systems that tackle real-world challenges while pushing the boundaries of human capability.'
+summary: "I am a passionate robotics engineer and completed my Master of Science degree in Robotics at the University of Michigan, Ann Arbor. <br><br>I have a strong interest in robotics and autonomy technologies spanning industrial automation, autonomous driving, and embodied intelligence. I am driven by the goal of developing intelligent, reliable, and scalable robotic systems that tackle real-world challenges while pushing the boundaries of human capability."
 
 # Social Links
 # give as many as you want. use font-awesome for the icons.
@@ -38,10 +38,10 @@ resourceLinks:
 
 # Show a photo wall in the About section.
 photoWall:
-- image: "/images/company1.jpg"
-  # title: "Project Experience"
-- image: "/images/company2.jpg"
-  # title: "Robotics Work"
+- image: "/images/fluent.jpeg"
+  title: "Interactive Perception-Action Framework"
+- image: "/images/auv.jpeg"
+  title: "Autonomous Underwater Vehicle"
 # - image: "/images/solidworks-cswa-badge.png"
   # title: "Team Collaboration"
 

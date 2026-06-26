@@ -1,6 +1,9 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
 baseURL: https://jypipi.github.io/jypipi/
 
+imaging:
+  quality: 90
+
 languageCode: en
 title: "Jeffrey's Portfolio"
 
@@ -67,16 +70,16 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/Illustrated_Bots_background.jpg
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/747_face.jpg
+    inverted: /images/site/747_face.jpg
+    favicon: /images/site/747_face.jpg
 
   # GitHub repo of your site
   gitRepo: https://github.com/jypipi/jypipi
@@ -85,7 +88,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 6
+    maxVisibleSections: 7
 
   # Configure various features of this theme
   features:

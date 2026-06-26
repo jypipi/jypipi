@@ -13,3 +13,8 @@
 //     display: block;
 //   }
 // }
+
+.home .background {
+    filter: none; //blur(1px)
+    transform: scale(1.05);
+}
