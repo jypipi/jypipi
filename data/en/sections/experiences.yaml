@@ -42,6 +42,11 @@ experiences:
     responsibilities:
     - Building an end-to-end human-in-the-loop system in ROS Noetic for interactive task execution with LLM-based planning, natural-language commands, object perception, and motion planning.
     - Deployed an RGB-D perception pipeline combining visual language models, YOLO-based segmentation, OpenCV processing, and point cloud alignment for real-time object pose estimation.
+  resourceLinks:
+  - title: "Website"
+    url: "posts/NL_2_Actions/"
+  - title: "GitHub Repository"
+    url: "https://github.com/jypipi/NL-2-Actions"
 
 - company:
     name: Field Robotics Group (FroG)
@@ -56,6 +61,9 @@ experiences:
     - Developed a ROS 2 software stack for an autonomous underwater vehicle in Python and C++, from high-level wrench command generation through actuator control allocation.
     - Integrated the stack with Pixhawk hardware running ArduSub via a MAVROS2-based MAVLink interface.
     - Dockerized the workspace and automated bring-up with shell scripts for repeatable development and deployment.
+  resourceLinks:
+  - title: "GitHub Repository"
+    url: "https://github.com/jypipi/FroG_AUV_Software_System"
 
 - company:
     name: Multi-Agent Robotics (MURO) Lab
@@ -84,6 +92,9 @@ experiences:
     - Engineered an interactive robotics learning platform integrating robot navigation algorithms and visualizations with Python, Google Colab, and PyBullet.
     - Enabled learning and rapid prototyping of robot localization, mapping, path planning, and motion control workflows.
     - Contributed to a centralized web-based simulation interface with sample implementations and interactive visualizations, reducing access time to testing tools by more than 90%.
+  resourceLinks:
+  - title: "Project Website"
+    url: "https://existentialrobotics.org/RobotProvingGrounds/"
 
 # - company:
 #     name: Example Co.

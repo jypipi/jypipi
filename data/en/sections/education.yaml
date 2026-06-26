@@ -19,9 +19,9 @@ degrees:
   institution:
     name: University of Michigan, Ann Arbor
     url: "https://umich.edu"
-    logo: images/sections/education/Michigan-Engineering Vertical-REV-BLUE-RGB.png
+    logo: images/sections/education/UM_Robotics_logo.jpg
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
+    darkLogo: /images/sections/education/um_robotics_logo_light.png
   grade: #(optional)
     scale: GPA
     achieved: 3.94
@@ -29,11 +29,11 @@ degrees:
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false
-    collapseAfter: 4
+    collapseAfter: 1
     courses:
     - name: Mobile Robotics
-    - name: Self Driving Cars
     - name: Sensors, Data, and Smart Systems
+    - name: Self Driving Cars
     - name: Deep Learning for Robot Perception
     - name: Action and Perception
 
@@ -45,7 +45,7 @@ degrees:
     url: "https://ucsd.edu"
     logo: images/sections/education/ucsd+logo+2.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
+    darkLogo: /images/sections/education/ucsd+logo.jpeg
   grade: #(optional)
     scale: GPA
     achieved: 3.74
@@ -53,7 +53,7 @@ degrees:
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false
-    collapseAfter: 3
+    collapseAfter: 1
     courses:
     - name: Motion Planning & Estimation
     - name: Data Structures
