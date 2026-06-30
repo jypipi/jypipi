@@ -23,45 +23,64 @@ buttons:
 projects:
 - name: MBot Navigation Autonomy
   logo: /images/sections/projects/mbot-no-bkg.png
+  image: /images/sections/projects/slam_block_diagram.png
   role: Robotics Software Engineer
   timeline: "Oct 2024 - Dec 2024"
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  url: "files/Botlab_Report.pdf"
   summary: |
-    Built an autonomous mobile robot with advanced navigation capabilities.  
-    Implemented core algorithms, including PID controllers, Particle Filter, and Occupancy Grid Mapping algorithms in C/C++ for reliable indoor autonomy.
+    ✦ Built an autonomous mobile robot with advanced navigation capabilities.  
+
+    ✦ Implemented core algorithms, including PID controllers, Particle Filter, and Occupancy Grid Mapping algorithms in C/C++ for reliable indoor autonomy.
   tags: ["academic", "SLAM", "robot navigation"]
 
-- name: Enhancements in Feature Extraction and Data Synthesis for 6D Pose Estimation
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jan 2025 - Apr 2025"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["academic", "deep learning"]
-
 - name: Interactive Autonomous Manipulator System
+  logo: /images/sections/projects/ReactorX_200.jfif
+  image: /images/sections/projects/block_detection.png
   role: Team Lead
   timeline: "Sep 2024 - Oct 2024"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
+  url: "files/Armlab_Report.pdf"
+  summary: |
+    ✦ Developed a robotic manipulator system with an RGB-D camera for accurate object detection and manipulation.  
+
+    ✦ Deployed an automated camera calibration and validation pipeline in Python, achieving a localization error under 7 mm.  
+    
+    ✦ Innovated a robust real-time object detection algorithm using OpenCV and RGB-D camera data, enabling accurate localization and segmentation of blocks of varying sizes and colors with over 99% classification accuracy.
   tags: ["academic","computer vision (OpenCV)"]
 
-- name: Triton Robosub Robotics Club
-  logo: /images/sections/projects/no-code.png
+- name: "DOPE-Plus: Enhancements in Feature Extraction and Data Synthesis for 6D Pose Estimation"
+  logo: /images/sections/projects/UMich_favicon_light.png
+  image: /images/sections/projects/ViT-DOPE_structure.png
+  role: Team Lead
+  timeline: "Jan 2025 - Apr 2025"
+  url: "https://deeprob.org/w25/reports/DOPE-Plus/"
+  summary: |
+    ✦ Enhanced the Deep Object Pose Estimation (DOPE) framework by replacing its VGG-19 backbone with a Vision Transformer (ViT) in PyTorch, enabling more robust feature extraction in domain randomized and photorealistic images.
+
+    ✦ Developed a synthetic data-generation pipeline based upon BlenderProc, with HDRI lighting, randomized domains, and multi-object rendering, creating two datasets (HOPE-Syn&Real and a custom Block dataset) for model training and evaluation.
+  tags: ["academic", "deep learning"]
+
+- name: "Triton Robosub: Autonomous Underwater Vehicle Development"
+  logo: /images/sections/projects/triton_robosub_logo.png
+  image: /images/sections/projects/triton_robosub_auv.jpg
   role: Control System Developer
   timeline: "Nov 2022 - Aug 2023"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+  url: "https://www.linkedin.com/school/tritonrobosub/"
+  summary: | 
+    ✦ Built an autonomous underwater vehicle in the UCSD Triton Robosub Robotics Club.
+
+    ✦ Developed a control-system interface in ROS 2 and Python for an autonomous underwater vehicle (AUV), achieving remote calibration of sensors and high-speed communication between sensors, flight controller, and actuators.
+  tags: ["extracurricular", "robotics"]
 
 - name: MRI Rolling-Diaphragm Actuator Characterization
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
+  logo: /images/sections/projects/ucsd_mae_logo.jpg
+  image: /images/sections/projects/assembly.png
+  role: Mechanical Design Engineer
   timeline: "Feb 2022 - Jun 2022"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
+  url: "files/MRI_Rolling_Diaphragm_Actuator_Characterization_Report.pdf"
+  summary: |
+    ✦ Designed a test stand for optimization analysis and quantified the linear force and position transmission of the actuator.
+
+    ✦ Leveraged SolidWorks and rapid prototyping techniques to enhance the water chamber shell design and introduced a T-junction air hose configuration, resulting in a 66% decrease in static friction and a position error of less than 1.4 mm.
   tags: ["academic", "mechanical engineering"]

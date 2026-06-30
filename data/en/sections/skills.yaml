@@ -47,35 +47,11 @@ skills:
   categories: ["language", "robotics"]
   url: "https://isocpp.org/"
 
-- name: Java
-  logo: /images/sections/skills/java.svg
-  summary: "Programming language experience from software engineering coursework and application development."
-  categories: ["language"]
-  url: "https://www.java.com/"
-
-- name: Unix Scripting
-  logo: /images/sections/skills/bash.svg
-  summary: "Used shell scripts to automate development workflows, workspace setup, and robot software bring-up."
-  categories: ["language", "tools"]
-  url: "https://www.gnu.org/software/bash/"
-
-- name: MATLAB
-  logo: /images/sections/skills/matlab.svg
-  summary: "Used for engineering analysis, controls, robotics coursework, and rapid algorithm prototyping."
-  categories: ["language", "tools"]
-  url: "https://www.mathworks.com/products/matlab.html"
-
 - name: ROS / ROS 2
   logo: /images/sections/skills/ros.svg
   summary: "Experienced with ROS Noetic and ROS 2 Humble for robot software stacks, localization, perception, MAVROS2 integration, and multi-robot systems."
   categories: ["robotics", "tools"]
   url: "https://www.ros.org/"
-
-- name: PyTorch
-  logo: /images/sections/skills/pytorch.svg
-  summary: "Used for deep learning and robot perception workflows."
-  categories: ["robotics", "tools"]
-  url: "https://pytorch.org/"
 
 - name: OpenCV
   logo: /images/sections/skills/opencv.svg
@@ -89,10 +65,17 @@ skills:
   categories: ["ai", "robotics", "tools"]
   url: "https://www.ultralytics.com/"
 
-- name: PyBullet
-  summary: "Used for robotics simulation, visualization, and rapid prototyping of localization, mapping, planning, and motion control algorithms."
-  categories: ["robotics", "tools"]
-  url: "https://pybullet.org/"
+- name: MATLAB
+  logo: /images/sections/skills/matlab.svg
+  summary: "Used for engineering analysis, controls, robotics coursework, and rapid algorithm prototyping."
+  categories: ["language", "tools"]
+  url: "https://www.mathworks.com/products/matlab.html"
+
+- name: Behavior Trees
+  logo: /images/sections/skills/behavior-tree.svg
+  summary: "Applied behavior trees for hierarchical robot task execution, modular decision logic, and reusable autonomy workflows."
+  categories: ["robotics"]
+  url: "https://www.behaviortree.dev/"
 
 - name: State Machines
   summary: "Applied state-machine design patterns for structured robot behavior and task execution logic."
@@ -134,42 +117,46 @@ skills:
   categories: ["tools"]
   url: "https://www.atlassian.com/software/jira"
 
+- name: PyTorch
+  logo: /images/sections/skills/pytorch.svg
+  summary: "Used for deep learning and robot perception workflows."
+  categories: ["robotics", "tools"]
+  url: "https://pytorch.org/"
+
+- name: PyBullet
+  summary: "Used for robotics simulation, visualization, and rapid prototyping of localization, mapping, planning, and motion control algorithms."
+  categories: ["robotics", "tools"]
+  url: "https://pybullet.org/"
+
+- name: Java
+  logo: /images/sections/skills/java.svg
+  summary: "Programming language experience from software engineering coursework."
+  categories: ["language"]
+  url: "https://www.java.com/"
+
+- name: Unix Scripting
+  logo: /images/sections/skills/bash.svg
+  summary: "Used shell scripts to automate development workflows, workspace setup, and robot software bring-up."
+  categories: ["language", "tools"]
+  url: "https://www.gnu.org/software/bash/"
+
 - name: SolidWorks
   logo: /images/sections/skills/solidworks.svg
   summary: "Used for mechanical design and CAD modeling; Certified SolidWorks Associate in Mechanical Design."
   categories: ["cad"]
   url: "https://www.solidworks.com/"
 
+- name: Certified SolidWorks Associate (CSWA)
+  logo: /images/sections/skills/solidworks-cswa-badge.png
+  summary: "Certified SolidWorks Associate in Mechanical Design."
+  categories: ["cad", "certification"]
+  url: "https://www.solidworks.com/certifications/mechanical-design-cswa-mechanical-design"
+
 - name: Autodesk Fusion
   logo: /images/sections/skills/autodesk-fusion.svg
   summary: "Used for CAD modeling, mechanical design iteration, and fabrication-oriented design workflows."
   categories: ["cad"]
   url: "https://www.autodesk.com/products/fusion-360/overview"
-
-- name: CNC
-  logo: /images/sections/skills/cnc.svg
-  summary: "Experienced with CNC-oriented fabrication workflows for mechanical prototyping and manufacturing."
-  categories: ["mechanics"]
-
-- name: Lathe
-  logo: /images/sections/skills/lathe.png
-  summary: "Experienced with lathe-based machining concepts for mechanical fabrication."
-  categories: ["mechanics"]
-
-- name: Milling
-  logo: /images/sections/skills/milling.svg
-  summary: "Experienced with milling workflows for subtractive manufacturing and mechanical prototyping."
-  categories: ["mechanics"]
-
-- name: 3D Printing
-  logo: /images/sections/skills/3d-printing.svg
-  summary: "Used 3D printing for rapid mechanical prototyping, robot parts, and iteration of physical designs."
-  categories: ["mechanics"]
-
-- name: Laser Cut
-  logo: /images/sections/skills/laser-cut.svg
-  summary: "Used laser cutting workflows for fast fabrication of flat parts, fixtures, and prototypes."
-  categories: ["mechanics"]
 
 - name: Microsoft Office
   logo: /images/sections/skills/microsoft365.svg
@@ -183,8 +170,27 @@ skills:
   categories: ["robotics", "certification"]
   url: "https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs"
 
-- name: Certified SolidWorks Associate (CSWA)
-  logo: /images/sections/skills/solidworks-cswa-badge.png
-  summary: "Certified SolidWorks Associate in Mechanical Design."
-  categories: ["cad", "certification"]
-  url: "https://www.solidworks.com/certifications/mechanical-design-cswa-mechanical-design"
+- name: CNC
+  logo: /images/sections/skills/cnc.svg
+  summary: "Experienced with CNC-oriented fabrication workflows for mechanical prototyping and manufacturing."
+  categories: ["mechanics"]
+
+- name: Lathe
+  logo: /images/sections/skills/lathe.png
+  summary: "Experienced with lathe-based machining for mechanical fabrication."
+  categories: ["mechanics"]
+
+- name: Milling
+  logo: /images/sections/skills/milling.svg
+  summary: "Experienced with milling workflows for mechanical prototyping."
+  categories: ["mechanics"]
+
+- name: 3D Printing
+  logo: /images/sections/skills/3d-printing.svg
+  summary: "Used 3D printing for rapid mechanical prototyping, robot parts, and iteration of physical designs."
+  categories: ["mechanics"]
+
+- name: Laser Cut
+  logo: /images/sections/skills/laser-cut.svg
+  summary: "Used laser cutting workflows for fast fabrication of flat parts, fixtures, and prototypes."
+  categories: ["mechanics"]

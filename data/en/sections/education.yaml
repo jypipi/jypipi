@@ -26,10 +26,11 @@ degrees:
     scale: GPA
     achieved: 3.94
     outOf: 4.0
+  diploma: images/sections/education/MS_Robotics_Diploma.png
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false
-    collapseAfter: 1
+    collapseAfter: 5
     courses:
     - name: Mobile Robotics
     - name: Sensors, Data, and Smart Systems
@@ -37,7 +38,7 @@ degrees:
     - name: Deep Learning for Robot Perception
     - name: Action and Perception
 
-- name: B.S. in Mechanical Engineering (Control and Robotics)
+- name: Bachelor of Science in Mechanical Engineering (Control and Robotics)
   icon: fa-graduation-cap
   timeframe: 2018-2023
   institution:
@@ -50,6 +51,7 @@ degrees:
     scale: GPA
     achieved: 3.74
     outOf: 4.0
+  diploma: images/sections/education/UCSD_Diploma.png
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: false
